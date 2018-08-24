@@ -54,7 +54,7 @@ class _CalculatorState extends State<Calculator> {
                   ),
                 ]
               ),
-              Divider(height: 15.0,color: Colors.red,indent: 4.0,),
+              Divider(height: 15.0,indent: 4.0,),
               Row( /// first row
                 mainAxisAlignment:  MainAxisAlignment.center,
                 children: calculatorButtons.firstRow.map(_buildButtons).toList(),
